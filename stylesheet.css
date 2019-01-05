@@ -1,1 +1,54 @@
-.splashimage img{max-width: 100%;}
+body{
+    margin: 0;
+}
+.wrapper{
+    max-width: 1800px;
+
+}
+
+/*splashimage*/
+
+.splashimage {
+     background-color: black;
+    text-align: center;
+}
+
+.splashimage img {
+    margin: auto;
+    max-width: 100vw;
+    max-height: 900px;
+    text-align: center;
+}
+/*splashimage*/
+/*cv*/
+div.cv{
+    text-align: center
+}
+
+/*cv*/
+/*portfolio*/
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2vw;
+    max-width: 1680px;
+}
+div.portfolio{
+    max-width: 500vw;
+
+}
+.portfolio img{
+    max-width: 100%;
+    border: 5px solid green;
+
+}
+/*portfolio*/
+/*mediaqueries*/
+@media only screen and (max-width: 900px){
+    .portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1vw;
+}
+}
+/*mediaqueries*/
